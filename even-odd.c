@@ -15,7 +15,7 @@ int main(){
  }
 
  int even[count], odd[n-count];
- for(i=0;i<10;i++){
+ for(i=0;i<n;i++){
   if(a[i]%2==0){
    even[j]=a[i];
    j++;
