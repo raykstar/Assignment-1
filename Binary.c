@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
+//works for any n bit integer with necessary changes. this program is written for 3 bits integer. 
 int binary(int *n){
   int rem;
   rem = *n%2;
