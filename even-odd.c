@@ -28,13 +28,13 @@ int main(){
 
  printf("The even numbers are: ");
  for(i=0;i<count;i++){
-  printf("%d",even[i]);
+  printf("%d ",even[i]);
  }
-
+printf("\n");
  printf("The odd numbers are: ");
  for(i=0;i<n-count;i++){
-  printf("%d",odd[i]);
+  printf("%d ",odd[i]);
  }
-
+printf("\n");
  getch();
 }
